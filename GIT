@@ -1,0 +1,30 @@
+SETUP GIT ENVIRONMENT
+DOWNLOAD AND INSTALL GIT
+There are online materials that are better than any that I could
+provide
+Standard one: http://git-scm.com/downloads
+Here’s one from StackExchange:
+http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive
+-practical-guide#323764
+Install Git on your machine from http://git-scm.com/downloads
+Accept context menu items
+Git access:
+Right click from windows explorer gitBash to enter commands
+
+INTRODUCE YOURSELF TO GIT
+Start git / gitBash
+
+Enter these lines (with appropriate changes):
+
+git config --global user.name "John Smith"
+
+git config --global user.email jsmith@seas.upenn.edu
+
+You only need to do this once
+
+If you want to use a different name/email address for a
+particular project, you can change it for just that project
+
+cd to the project directory
+
+Use the above commands, but leave out the --global
